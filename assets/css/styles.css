@@ -54,22 +54,10 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-}
+} 
 
 /* Contacto */
 
-#Contacto {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-
-  height: 100vh;
-}
-
-#Contacto form label {
-  font-weight: 700;
-  color: #373a3c;
-}
 
 @media (max-width: 768px) {
   #Contacto form label {
@@ -136,13 +124,3 @@ body {
   background-position: center;
 }
 
-/* Conocimientos TI */
-
-#c-ti{
-
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around ;
-  align-items: center;
-  height: 100vh;
-}
