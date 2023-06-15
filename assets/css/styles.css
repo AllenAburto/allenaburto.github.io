@@ -1,8 +1,3 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 body {
   font-family: "Raleway", sans-serif;
@@ -86,62 +81,68 @@ body {
   }
 
 }
-<!--.portafolio{
-  >!-background-color: #457ea5;
 
-}-->
+/* Mis Antecedentes Academicos */
 
-.work-experience{
-  scroll-margin-top: 9ex;
-}
+#A-Academicos {
 
-/* EXPERIENCE SECTION */
-
-.experience{
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  flex-wrap: wrap;
-  gap: 1rem;
-  margin: 0 1rem;
+  align-items: center;
+  height: 100vh;
 }
 
-.experience-box{
-  background-color: #1B3343;
-  border-radius: 3%;
-  width: 25rem;
-  padding: 1rem;
+#A-Academicos .image-top {
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
-.experience-box h6{
-  font-size: 18px;
-  color: #FF8303;
-  margin: 0;
-  line-height: 50%;
+/* Mis Antecedentes Laborales */
+
+#A-Laborales {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
-.company-name{
-  font-weight: 700;
-  margin: 0;
+#A-Laborales .image-top {
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
-.experience-time{
-  font-weight: 300;
-  line-height: 50%;
-  font-size: 14px;
+/* Mis Proyectos HTML */
+
+#p-html{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
-.experience-box ul{
-  list-style: none;
-  padding: 0;
-  margin: 0;
+#p-html .image-top {
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
-.experience-box li{
-  line-height: 90%;
-  padding: 0.25rem;
-}
+/* Conocimientos TI */
 
-.experience-box i{
-  font-size: 10px;
-  color: #FF8303;
+#c-ti{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around ;
+  align-items: center;
+  height: 100vh;
 }
